@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link href='rpsStylingVer2.css' rel='stylesheet'>
+    <link href='rpsStylingDecor2S.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id='header' class='header'>
+        <ul class='HeaderContent'>
+            <li class='HeaderText'>Rock Paper Scissor</li>
+            <li class='Rules'>first to win 5 is the champion</li>
+        </ul>
+    </div>
+    <div id='Score_and_button' class='Score_and_button'>
+        <div id='mainContent' class='mainContent'>
+            <p class='SubHeaderText'>Score board</p>
+            <div id='Score' class='Score'>
+                <p>Player : <span id='playerScore'></span><s</p>
+                <p>Computer : <span id='computerScore'></span></p>
+            </div>
+        </div>
+        <div id='gameButton' class='gameButton'>
+            <p class='SubHeaderText'>Enter your move</p>
+            <div id='RPSButton' class='RPSButton'>
+                <button id='rock' class='rock'>Rock</button>
+                <button id='paper' class='paper'>Paper</button>
+                <button id='scissor' class='scissor'>Scissor</button>
+            </div>
+        </div>
+    </div>
+    <div id='PEMoves_Result' class='PEMoves_Result'>
+        <div id ='PEMoves_Display' class='PEMoves_Display'>
+            <p>Your move: <span id='playerMove'></p>
+            <p>AI move: <span ID='computerMove'></span></p>
+        </div>
+        <div id='gameResult_div' class='gameResult_div'>
+            <p id='gameResult'>Play Game to Show Result</p>
+        </div>
+    </div>
+    <script src='rockPaperScissor.js'></script>
+</body>
+</html>

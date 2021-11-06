@@ -1,0 +1,82 @@
+.HeaderContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 8px;
+    align-items: center;
+}
+.header{
+    background-color: rgba(100, 100, 100,0.6);
+    margin:0;
+    padding:1px;
+    width:100%;
+}
+body{
+    background-color: black;
+    color:#e2b714;
+    padding:0px;
+    margin:0px;
+}
+.Score_and_button{
+    display: flex;
+    justify-content: space-around;
+}
+.mainContent,.gameButton,.PEMoves_Display,.gameResult_div{
+    width:300px;
+    height:50px;
+    padding:25px;
+    margin:20px;
+    text-align: left;
+}
+.PEMoves_Result{
+    display: flex;
+    justify-content: space-around;
+}
+.gameButton,.gameResult_div{
+    text-align: center;
+}
+.HeaderText{
+    font-weight:900px;
+    font-size: 30px;
+    font-family: Lobster;
+}
+.SubHeaderText{
+    font-family: Pacifico;
+    font-size: 24px;
+    margin-bottom:16px;
+    height:25px;
+}
+.RPSButton{
+    padding-top:10px;
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Score,.PEMoves_Result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+#rsltdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CntNBttn{
+    margin:auto;
+    color:#e2b714;
+    display:block;
+    background-color: rgba(100, 100, 100,0.6);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgba(100, 100, 100,0.6);
+}
+.Rules{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    font-weight:medium ;
+}
